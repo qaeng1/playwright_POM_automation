@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: My-AgentPool
 
 steps:
 - task: NodeTool@0
